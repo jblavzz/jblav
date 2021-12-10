@@ -1,16 +1,15 @@
 # 珈百璃AV发布页
 
-# 永久海外发布页 https://jblav.com/
-# 备用域名 https://jblav.vip/
+# 永久海外发布页 http://jblav.com/
+# 备用域名 http://jblav.vip/
 
-# 永久观影域名 http://jblav.cc/
-# 备用域名 http://jblav.xyz/
+### 永久观影域名 http://jblav.cc/
+### 备用域名 http://jblav.xyz/
 
-# 影视站永久域名 http://jblyes.com/
-# 备用域名 http://jblyes.cc/
-# 备用域名 http://jblyes.vip/
-# 备用域名 http://jblyes.xyz/
-
+### 影视站永久域名 http://jblyes.com/
+### 备用域名 http://jblyes.cc/
+### 备用域名 http://jblyes.vip/
+### 备用域名 http://jblyes.xyz/
 
 ## ⇧ ⇧ ⇧ 請牢記本站最新網址 ⇧ ⇧ ⇧
 
