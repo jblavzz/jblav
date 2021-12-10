@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-page-mode" content="app">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>JblAv.com | 免費高清AV在线看 | JAV片 AV看到鲍!</title>
+    <meta name="description" content="免費高清AV在线看，无需下載看到鲍。">
+    <meta name="keywords" content="高清AV, 免費AV, JAV线上看, 免費JAV, 手机AV">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./jblav_favicon.ico">
+</head>
+
+<body>
+    <div class="bg-img-h5"><img style="width:100%;height:100%;min-height:400px;background-color: rgba(0, 0, 0, 0.5);" src="./image/bj.jpg"></div>
+    <div class="mask"></div>
+    <div class="video_box">
+        <video poster="./image/pc-bj.jpg" muted loop="loop" autoplay="autoplay" style="z-index: -1" @click="play" x5-video-player-type="h5" controls="false" :src="this.result.video" :poster="this.result.thumb" muted autoplay x5-video-player-fullscreen="true"
+            x-webkit-airplay="allow" webkit-playsinline="true" playsinline="true" x5-playsinline src="./bg.mp4" id="video_dom">抱歉，您的浏览器不支持内嵌视频</video>
+    </div>
+    <div class="text-z">
+        <div class="lemon-pc">
+            <div class="lemon-left">
+                <div class="lemon-left-head"><img class="lemon-logo" src="./image/logo.png" alt></div>
+                <div class="lemon-left-middel"><span>Jblav发布页</span><img style="padding-bottom:2vh" src="./image/ctrl+d.png"> <span>收藏本网站</span></div>
+                <div class="lemon-left-bottom">
+                    <img style="width:90%" src="./image/ewm.png" class="qrcode-logo" alt>
+                    <div class="qrcode" id="qrcode"></div><span class="copyright" style="padding-top:4vh">copyright@2022 JBLAV JblAv.com</span></div>
+            </div>
+            <div class="lemon-m"></div>
+            <div class="lemon-right">
+                <div><img class="lemon-logo11" src="./image/dalogo.png" alt>
+                    <div class="text-space">欢迎到来 尊贵的客人</div>
+                    <div><span class="lemon-color">请牢记 JblAv.com</span>麻烦你啦~一定要记住我哦~</div>
+                </div>
+                <div class="lemon-right-middel">
+                    <div class="pc-bnt-mar-left">
+                        <a href="http://cangshuav.com" target="_blank">
+                            <div class="button line text-color">快速线路 1</div>
+                        </a>
+                    </div>
+                    <div class="pc-bnt-mar-left padd-left-8">
+                        <a href="http://cangshuav.com" target="_blank">
+                            <div class="button line text-color">快速线路 2</div>
+                        </a>
+                    </div>
+                    <div class="pc-bnt-mar-left padd-left-8">
+                        <a href="http://cangshuav.com" target="_blank">
+                            <div class="button line text-color">快速线路 3</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="lemon-right-bottom"><span>发送任意邮件至 jblavzz@gmail.com 获取最新域名</span></div>
+            </div>
+        </div>
+        <div class="orange-head"><img class="orange-logo" src="./image/s-logo.png" alt>
+            <div class="head-right" id="head-right"></div>
+        </div>
+        <div class="page-h5"><img class="slogan-h5" src="./image/zhuti.png" alt></div>
+        <div class="text-view">
+            <div class="dis-flex">
+                <div class="pc-bnt-mar-right">
+                    <a href="http://cangshuav.com" target="_blank">
+                        <div class="button line text-color">快速线路 1</div>
+                    </a>
+                </div>
+                <div class="pc-bnt-mar-left">
+                    <a href="http://cangshuav.com" target="_blank">
+                        <div class="button line text-color">快速线路 2</div>
+                    </a>
+                </div>
+                <div class="pc-bnt-mar-left">
+                    <a href="http://cangshuav.com" target="_blank">
+                        <div class="button line text-color">快速线路 3</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="donwn-h5">
+            <div class="a-btn-right"><img onclick="openBookmark()" class="btn-right" src="./image/sc.png"></div>
+        </div>
+        <div class="notice text-color"><span>发送任意邮件至 jblavzz@gmail.com 获取最新域名</span></div>
+    </div>
+    <div class="book-mark" onclick="closeBookmark()">
+        <div>
+            <div class="book-mark-item">1&#x3001;&#x70B9;&#x51FB;&#x4E0B;&#x65B9;&#x7684;<img class="android-favorite" src="./image/cd.png">
+                <img class="ios-favorite" src="./image/pg.png"></div>
+            <div class="book-mark-item">2&#x3001;&#x6309;&#x4E0B;&#x201C;&#x6DFB;&#x52A0;&#x4E66;&#x7B7E;&#x201D;<img class="android-favorite" src="./image/shuqian.png">
+                <img class="ios-favorite" src="./image/shu.png"></div>
+            <div class="book-mark-item">3&#x3001;&#x4E0B;&#x8F7D;&#x5730;&#x5740;&#x5DF2;&#x88AB;&#x6DFB;&#x52A0;&#x5230;&#x4E66;&#x7B7E;&#xFF0C;</div>
+            <div class="book-mark-item" style="margin-left:25px">&#x65E0;&#x6CD5;&#x8FDB;&#x5165;app&#x65F6;&#xFF0C;&#x8BF7;&#x6253;&#x5F00;&#x4E0B;&#x8F7D;&#x5730;&#x5740;&#x91CD;&#x65B0;&#x4E0B;&#x8F7D;</div>
+        </div>
+    </div>
+    <div style="display: none;">
+        <script type="text/javascript">
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1280681188'%3E%3C/span%3E%3Cscript src='https://v1.cnzz.com/z_stat.php%3Fid%3D1280681188%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+    </div>
+
+    <div style="display: none;">
+        <script type="text/javascript">
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1280681195'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1280681195%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+    </div>
+</body>
+<script type="text/javascript">
+    var ua = navigator.userAgent,
+        isMoblid = -1 < ua.indexOf("Mobile"),
+        isAndroid = -1 < ua.indexOf("Android"),
+        load = function() {
+            get(location.origin).then(function(e) {
+                var o = e.data.data;
+                if (o.observe_script) {
+                    var t = document.createElement("script");
+                    t.type = "text/javascript", t.src = o.observe_script;
+                    var r = document.getElementsByTagName("script")[0];
+                    r.parentNode.insertBefore(t, r)
+                }
+            }).catch(function(e) {
+                console.log(e)
+            })
+        };
+
+    function openBookmark() {
+        for (var e = isAndroid ? "android" : "ios", o = document.querySelectorAll("." + e + "-favorite"), t = 0; t < o.length; t++) o[t].style.display = "block";
+        document.querySelector(".book-mark").style.display = "flex"
+    }
+
+    function closeBookmark() {
+        document.querySelector(".book-mark").style.display = "none"
+    }
+    load(), createQrcode()
+</script>
+
+</html>
