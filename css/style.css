@@ -1,0 +1,417 @@
+@media(max-width:767px) {
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        margin: 0
+    }
+    a {
+        color: inherit;
+        text-decoration: none
+    }
+    .text-view {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 14vh
+    }
+    .button {
+        width: 250px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin: 30px;
+        transition: all .6s
+    }
+    .text-z {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+    .orange-head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vh
+    }
+    #head-right {
+        display: none
+    }
+    .head-right {
+        width: 60%;
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 10px
+    }
+    .bnt-hidden {
+        display: none
+    }
+    .slogan-hidden {
+        display: none
+    }
+    .pc-bnt-mar-left {
+        z-index: 999 !important
+    }
+    .page-h5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+    .page-h5 div {
+        display: flex;
+        color: #fff;
+        font-size: 11px;
+        padding: 6px 0
+    }
+    .donwn-h5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 8vh;
+        text-align: center
+    }
+    .donwn-h5 .btn-left {
+        width: 80%
+    }
+    .donwn-h5 .btn-right {
+        width: 100%
+    }
+    .slogan-h5 {
+        width: 80%;
+        margin-bottom: -15vh
+    }
+    .padding-20 {
+        padding-left: 30px
+    }
+    .padding-right-10 {
+        padding-right: 6px
+    }
+    .padding-left-10 {
+        padding-left: 6px
+    }
+    .padding-6 {
+        padding: 6px 0
+    }
+    .page-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+    .notice {
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 1vh 4vh 1vh
+    }
+    .notice span {
+        text-align: center
+    }
+    .line {
+        border-style: solid;
+        border-width: 1px;
+        border-image-source: linear-gradient(45deg, #fe628e 0, #fe628e 100%);
+        border-image-slice: 1
+    }
+    .down-app {
+        width: 176px;
+        height: 40px;
+        background-color: #ffcf00;
+        border-radius: 20px
+    }
+    .text-color {
+        color: #fff
+    }
+    .padding-top-20 {
+        padding-top: 20px
+    }
+    .text-block {
+        font-weight: 700;
+        color: #ccc
+    }
+    video {
+        display: none
+    }
+    .bg-img-h5 {
+        width: 100%;
+        height: 100%
+    }
+    .book-mark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .7);
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .book-mark img {
+        width: 25px;
+        height: 25px;
+        margin: 0 5px
+    }
+    .book-mark-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 5px 0;
+        color: #ccc
+    }
+    .android-favorite,
+    .ios-favorite {
+        display: none
+    }
+    .lemon-pc {
+        display: none
+    }
+}
+
+@media(min-width:768px) {
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden
+    }
+    a {
+        color: inherit;
+        text-decoration: none
+    }
+    .text-view {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 8vh
+    }
+    .dis-flex {
+        display: flex;
+        margin: 30px
+    }
+    .dis-flex .pc-bnt-mar-left {
+        margin-left: 20px
+    }
+    .dis-flex .pc-bnt-mar-right {
+        margin-right: 20px
+    }
+    .button {
+        width: 200px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        transition: all .6s
+    }
+    .text-z {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+    .lemon-pc {
+        overflow: auto;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start
+    }
+    .lemon-left {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around
+    }
+    .lemon-m {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around
+    }
+    .lemon-logo {
+        margin-top: -6vh
+    }
+    .lemon-logo11 {
+        width: 72%;
+        padding-top: 24vh
+    }
+    .lemon-left span {
+        display: block;
+        padding-bottom: 2vh
+    }
+    .lemon-left-middel {
+        display: flex;
+        flex-direction: column;
+        color: #fff
+    }
+    .lemon-left-bottom {
+        margin-bottom: -8vh
+    }
+    .copyright {
+        text-align: center;
+        color: #fff;
+        padding-top: 4vh
+    }
+    #qrcode {
+        position: relative
+    }
+    #qrcode img {
+        width: 60%;
+        padding: 5px;
+        background: #fff;
+        padding: 0;
+        border-radius: 5px;
+        position: absolute;
+        left: 44%;
+        bottom: 50%;
+        transform: translate(-50%, -50%)
+    }
+    #qrcode .qrcode-logo {
+        width: 300px;
+        height: 300px
+    }
+    .lemon-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #fff;
+    }
+    .text-space {
+        padding: 2vh 0
+    }
+    .lemon-color {
+        color: #fe628e;
+        font-size: 18px;
+        font-weight: 800;
+        padding-right: 1vh
+    }
+    .lemon-right-middel {
+        display: flex;
+        padding-top: 18vh
+    }
+    .lemon-right-bottom {
+        padding-top: 9vh
+    }
+    .padd-left-8 {
+        padding-left: 8vh
+    }
+    .head-right {
+        float: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 10px
+    }
+    .padding-20 {
+        padding-left: 30px
+    }
+    .padding-right-10 {
+        padding-right: 6px
+    }
+    .padding-left-10 {
+        padding-left: 6px
+    }
+    .padding-6 {
+        padding: 6px 0
+    }
+    .page-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+    }
+    .page-h5 {
+        display: none
+    }
+    .donwn-h5 {
+        display: none
+    }
+    .notice {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 1vh 2vh 1vh
+    }
+    .notice span {
+        text-align: center
+    }
+    .line {
+        border-style: solid;
+        border-width: 1px;
+        border-image-source: linear-gradient(45deg, #fe628e 0, #fe628e 100%);
+        border-image-slice: 1
+    }
+    .down-app {
+        width: 176px;
+        height: 40px;
+        background-color: #ffcf00;
+        border-radius: 20px
+    }
+    .text-color {
+        color: #fff
+    }
+    .padding-top-20 {
+        padding-top: 20px
+    }
+    .text-block {
+        font-weight: 700;
+        color: #ccc
+    }
+    video {
+        object-fit: fill;
+        height: 100%;
+        width: 100%;
+        min-height: 800px
+    }
+    .bg-img-h5 {
+        display: none
+    }
+    .text-view {
+        display: none
+    }
+    .notice {
+        display: none
+    }
+    .orange-head {
+        display: none
+    }
+    .book-mark {
+        display: none
+    }
+}
+
+.mask {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
