@@ -3,6 +3,10 @@
 # 永久海外发布页 http://jblav.com/
 # 备用域名 http://jblav.vip/
 
+
+### jblav01.xyz 01-09都可以哦~  
+
+
 ### 永久观影域名 http://jblav.cc/
 ### 备用域名 http://jblav.xyz/
 
