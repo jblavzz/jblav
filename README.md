@@ -4,7 +4,7 @@
 # 备用域名 http://jblav.vip/
 
 
-### jblav01.xyz 01-09都可以哦~  
+## jblav01.xyz 01-08 都可以哦~  
 
 
 ### 永久观影域名 http://jblav.cc/
