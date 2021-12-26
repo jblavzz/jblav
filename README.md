@@ -1,4 +1,5 @@
-# 珈百璃AV发布页
+# 珈百璃AV发布页 麻烦给个友链哦~
+# 友链地址  珈百璃AV http://jblav.vip/
 
 # 永久海外发布页 http://jblav.com/
 # 备用域名 http://jblav.vip/
