@@ -1,20 +1,20 @@
 # 珈百璃AV发布页 麻烦给个友链哦~
-# 友链地址  珈百璃AV http://jblav.vip/
+# 友链地址  珈百璃AV https://jblav.vip/
 
-# 永久海外发布页 http://jblav.com/
-# 备用域名 http://jblav.vip/
+# 永久海外发布页 https://jblav.com/
+# 备用域名 https://jblav.vip/
 
 
 ## jblav01.xyz 01-12 都可以哦~  
 
 
-### 永久观影域名 http://jblav.cc/
-### 备用域名 http://jblav.xyz/
+### 永久观影域名 https://jblav.cc/
+### 备用域名 https://jblav.xyz/
 
-### 影视站永久域名 http://jblyes.com/
-### 备用域名 http://jblyes.cc/
-### 备用域名 http://jblyes.vip/
-### 备用域名 http://jblyes.xyz/
+### 影视站永久域名 https://jblyes.com/
+### 备用域名 https://jblyes.cc/
+### 备用域名 https://jblyes.vip/
+### 备用域名 https://jblyes.xyz/
 
 ## ⇧ ⇧ ⇧ 请牢记本站最新网址 ⇧ ⇧ ⇧
 
